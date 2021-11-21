@@ -63,8 +63,8 @@ thema.forEach(img =>{
     zeraTudo();
     codigodoHtml += `
     <div class="card" data-carta="${img}" >
-        <div class="frontcard"><img src="assets/img/${tiptema}/cover/cover.jpg"></div>
-        <div class="backcard"> <img src="assets/img/${tiptema}/imgs/${img}"></div>
+        <div class="frontcard"><img src="img/${tiptema}/cover/cover.jpg"></div>
+        <div class="backcard"> <img src="img/${tiptema}/imgs/${img}"></div>
     </div>
     ` ;      
 });
